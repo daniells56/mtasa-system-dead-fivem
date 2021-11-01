@@ -1,5 +1,5 @@
 # mtasa-system-dead-fivem
-Uma tela que aparece quando você esta com certa quantidade de vida.
+Uma tela de morte.
 
 ![image](https://user-images.githubusercontent.com/90437030/139752316-77d27ff1-6839-4825-9715-5fa7882d6aff.png)
 
