@@ -44,6 +44,7 @@ addEventHandler('openKilled', getRootElement(), function ()
       nocauteado = true
       addEventHandler('onClientRender', getRootElement(), dxNUI)
       showCursor(true)
+      triggerServerEvent( 'startAnim', localPlayer, localPlayer )
       setTimer(function ()
          if deathtimer > 0 and nocauteado then 
          deathtimer = deathtimer - 1
@@ -63,6 +64,7 @@ addEventHandler('desistir', getRootElement(), function ()
    removeEventHandler('onClientRender', getRootElement(), dxNUI)
    deathtimer = Config.Tempo
    triggerServerEvent( 'kill', localPlayer, localPlayer )
+   triggerServerEvent( 'stopAnim', localPlayer, localPlayer )
    SendNUIMessage(browser, {
 		setDisplay = false,
 		setDisplayDead = false,
@@ -86,6 +88,7 @@ addEventHandler('closeKilled', getRootElement(), function ()
       removeEventHandler('onClientRender', getRootElement(), dxNUI)
       deathtimer = Config.Tempo
       triggerServerEvent( 'kill', localPlayer, localPlayer )
+      triggerServerEvent( 'stopAnim', localPlayer, localPlayer )
       SendNUIMessage(browser, {
          setDisplay = false,
          setDisplayDead = false,
