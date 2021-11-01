@@ -1,0 +1,24 @@
+<meta>
+	<info author="VSCode MTA:SA Lua" type="script" name="nui" />
+	<script src="settings.lua" type="shared" cache="false" />
+	<script src="browserFunctions.lua" type="client" cache="false" />
+	<script src="c_nui.lua" type="client" cache="false" />
+	<script src="s_nui.lua" type="server" />
+
+	<file src="nui/nui.js" />
+	<file src="nui/nui.html" />
+	<file src="nui/nui.css" />
+	<file src="nui/app.css" />
+	<file src="nui/jquery/jquery.js" />
+	<file src="nui/imgs/pJASRUd.png" />	
+	<file src="nui/imgs/bG6ooSg.png" />	
+
+
+	<!!-- Fontes --!!>
+
+	<file src="NUI/fonts/edosz.ttf" cache="false"/>
+
+	<!!-- Fontes --!!>
+
+
+</meta>
